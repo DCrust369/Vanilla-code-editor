@@ -1,0 +1,1 @@
+rustc kilo.rs -o kilo_rust -C link-arg=-lc
