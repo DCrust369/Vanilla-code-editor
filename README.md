@@ -1,34 +1,38 @@
-# Vanilla-code-editor
-This is a code editor for terminais inspired by kilo but it's a builtfull and whith modern and whith config
+Vanilla code editor
 
+inspired by kilo and neovim
 
-The stack
-__________________________________________
-Rust (core)                               |
-                                          |
-C (Fastly code editor)                    |
-                                          |
-shell (Plugins this is a "VSterminal")    |
-                                          |
-Forth (for Fastly)                        |
-__________________________________________|
-Tools:                             |
-                                   |
-integration whith git              |
-                                   |
-less                               |
-                                   |
-KISS philosofy but whith config    |
-                                   |
-wget for everything                |
------------------------------------|
-good points:                       |
-                                   |
-whithout IA                        |
-                                   |
-is not big for computers           |
-                                   |
-is fastly                          |
-                                   |
-no use bash is dash!               |
-___________________________________|
+Rust -> core
+
+C -> for fastly code editor and core
+
+forth -> simple config
+
+-----------
+instaling forth
+
+sudo <package> update && sudo <package> upgrade ---refresh -y
+
+# forth
+sudo <package> install gforth
+
+# C language
+sudo <package> install clang
+
+# Rust
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh   
+
+source "$HOME/.cargo/env"
+
+// in Debian or Ubuntu or Linux Mint have a dependences
+build-essential
+
+good pointers:
+whithout IA
+whith TokioNight
+Less for old computers
+easy
+
+# LICENSE
+**BSD LICENSE** the vanilla code editor by DCrust
