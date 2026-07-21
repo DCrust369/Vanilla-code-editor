@@ -8,6 +8,9 @@ C -> for fastly code editor and core
 
 forth -> simple config
 
+shell -> for TokioNight
+have a two shells. Dash and bash
+
 -----------
 instaling forth
 
