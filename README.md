@@ -29,10 +29,10 @@ source "$HOME/.cargo/env"
 build-essential
 
 **good pointers:**
-whithout IA
-whith TokioNight
-Less for old computers
-easy
+whithout IA,
+ whith TokioNight,
+  Less for old computers,
+   easy
 
 # LICENSE
 **BSD LICENSE** the vanilla code editor by DCrust
