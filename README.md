@@ -31,6 +31,9 @@ source "$HOME/.cargo/env"
 **in Debian or Ubuntu or Linux Mint have a dependences**
 build-essential
 
+# install the dash
+sudo <package> install dash
+
 **good pointers:**
 whithout IA,
  whith TokioNight,
