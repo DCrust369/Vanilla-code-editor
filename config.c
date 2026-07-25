@@ -1,4 +1,4 @@
-#include <stdboot.h>
+#include <stdbool.h>
 #define CLI
 #define LESScode
 #define JetBrains
@@ -6,11 +6,12 @@
 
 int main(void)
 {
-    bool define_word = 'JetBrains-Mono';
-    bool 'JetBrains-Mono' = true;
-    bool Theme = 'TokioNight';
-    bool 'TokioNight' = true;
-    bool sub-theme = 'kickstart.nvim';
-    bool 'kickstart.nvim' = true;
+    // Em C, variáveis não podem ter hífens e textos usam aspas duplas ("")
+    bool define_word_jetbrains = true;
+    const char* theme = "TokioNight";
+    bool tokio_night_active = true;
+    const char* sub_theme = "kickstart.nvim";
+    bool kickstart_active = true;
+    
     return 0;
 }
