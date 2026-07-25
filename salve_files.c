@@ -1,18 +1,20 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main(void)
-{
-    int *archive;
-    int *file;
+struct everything_is_file {
+    bool your_archives;
+    int file_descriptor;
+};
 
-    bool *archive = user.sh(true);
-    bool *archive = select(my_space);
-    struct everything_is_file {
-        /*
-        UNIX PHILOSOFY
-        */
-        bool your_archives = user.sh
-        return 0;
-    }
+int main(void) {
+    int archive_val = 0;
+    int file_val = 0;
+    
+    int *archive = &archive_val;
+    int *file = &file_val;
+
+    struct everything_is_file item;
+    item.your_archives = true;
+
+    return 0;
 }
